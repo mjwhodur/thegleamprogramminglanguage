@@ -4,7 +4,7 @@ on:
       tags:
       - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
   
-name: Build and release PDF (polish)
+name: Build and release PDFs (polish)
   
 jobs:
   build-pl:
@@ -17,8 +17,12 @@ jobs:
       run: sudo apt-get update && sudo apt-get install -y texlive-latex-base texlive-fonts-recommended texlive-fonts-extra
     - name: Build the Polish version
       run: cd book/src/tex/pl && pdflatex pl.tex
+    - name: Build the english version
+      run: cd book/src/tex/en && pdflatex en.tex
     - name: Release with Notes
       uses: softprops/action-gh-release@v2
       with:
         files: |
           book/src/tex/pl/pl.pdf
+          book/src/tex/en/en.pdf
+
