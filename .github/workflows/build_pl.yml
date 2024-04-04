@@ -1,0 +1,15 @@
+on: workflow_dispatch
+  
+name: Build and release PDF (polish)
+  
+jobs:
+  build-pl:
+    name: Build book (pl)
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Install pre-requisites
+      run: sudo apt-get update && sudo apt-get install -y texlive-latex-base texlive-fonts-recommended texlive-fonts-extra
+    - name: Build the Polish version
+      run: cd book/src/tex/pl && pdflatex pl.tex
