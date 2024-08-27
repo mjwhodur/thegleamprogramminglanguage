@@ -1,17 +1,16 @@
 # Installing Gleam with Tools
 
-Installing Gleam is a very straightforward process. The language is available for most popular operating systems, making it accessible to a wide range of developers. 
+Installing Gleam is a rather straightforward process. The language is available for most popular operating systems, making it accessible to a wide range of developers. 
 
-Gleam is itself written in Rust, which provides several advantages:
-
-1. Cross-platform compatibility: Gleam can be built on every platform where Rust is supported, which includes all major operating systems.
-2. Performance: Rust's efficiency translates to a fast and resource-friendly Gleam compiler.
-3. Reliability: Rust's strong safety guarantees contribute to Gleam's stability.
+Gleam is written in Rust.
 
 In the following sections, we'll cover the installation process for different operating systems and package managers, ensuring you can get started with Gleam quickly and easily.
 
 ## Installing the Gleam Toolkit
 ### Linux
+```
+FIXME: This section is currently a stub. You can help by expanding it.
+```
 
 ### Windows
 
@@ -27,7 +26,6 @@ To install Gleam using this method:
 5. Move the `gleam` executable to a directory in your system's PATH.
 
 This method ensures you have the latest stable version of Gleam without the need for additional package managers or build tools.
-
 
 ### macOS
 #### Using Homebrew
@@ -81,7 +79,9 @@ As of writing, the newest version of Gleam is v1.4.1
 
 ## Installing Erlang
 ### Linux
-
+```
+FIXME: This section is currently a stub. You can help by expanding it.
+```
 
 ### Windows
 #### Using Chocolatey
@@ -98,11 +98,29 @@ scoop install erlang
 ```
 
 ### macOS
+If Gleam was installed with Homebrew, Erlang will be installed automatically.
+In case you need to install it manually, you can run the following command:
+
+```sh
+brew install erlang
+```
+
+In case you would like to upgrade Erlang, you can run the following command:
+```sh
+brew upgrade erlang
+```
 
 ## Installing Rebar3
+Rebar3 is a build tool for Erlang. While it is not necessarily required to install Rebar3 to use the Gleam compiler, Erlang-based dependencies will require it. 
+
 ### Linux
 
 ### Windows
 
 ### macOS
+
+#### Using Homebrew
+```sh
+brew install rebar3
+```
 

@@ -3,9 +3,10 @@
 ## TOC
 
 1. [Why Gleam](chapters/why_gleam.md)
-1. Why New Programming Language
 1. What is Erlang
 1. [Installing Gleam with the required tools](chapters/installing_gleam.md)
+1. [Gleam Basics](chapters/gleam_basics.md)
+
 
 ## Unordered
 

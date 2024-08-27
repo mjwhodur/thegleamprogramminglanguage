@@ -1,5 +1,7 @@
 # The Gleam Programming Language
 
+
+
 ## TLDR; for impatient
 
 The book is available here: [book/src/md/en/README.md](book/src/md/en/README.md)
