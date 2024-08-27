@@ -1,5 +1,7 @@
 # The Gleam Programming Language
 
+## Attention!
+![Gleam Programming Language](images/gleamlins/gleamlins.jpeg)
 
 
 ## TLDR; for impatient
