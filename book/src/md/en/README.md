@@ -2,13 +2,13 @@
 
 ## TOC
 
-1. Why Gleam
+1. [Why Gleam](chapters/why_gleam.md)
 1. Why New Programming Language
 1. What is Erlang
 1. [Installing Gleam with the required tools](chapters/installing_gleam.md)
-1. 
 
 ## Unordered
+
 1. Note about functional programming
 
 ## Gleam Libraries Source Code
@@ -36,6 +36,5 @@
 ## External Examples
 
 - [Example Echo Server](https://github.com/gleam-lang/example-echo-server)
--
 
 
