@@ -5,8 +5,7 @@
 1. Why Gleam
 1. Why New Programming Language
 1. What is Erlang
-1. [Installing Gleam](chapters/installing_gleam.md)
-1. Install required tools
+1. [Installing Gleam with the required tools](chapters/installing_gleam.md)
 1. 
 
 ## Unordered

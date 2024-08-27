@@ -82,6 +82,7 @@ As of writing, the newest version of Gleam is v1.4.1
 ## Installing Erlang
 ### Linux
 
+
 ### Windows
 #### Using Chocolatey
 With Chocolatey installed on your computer run the following:
