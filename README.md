@@ -20,7 +20,7 @@ introductory book.
 
 ## Plan
 
-- [ ] Initiate the book
+- [X] Initiate the book
 - [ ] Expand the articles and sections
 - [ ] Cover with as much examples as possible
 - [x] Make it free
@@ -40,14 +40,6 @@ I do not expect to be sole author of this publication. Contributions are welcome
 
 Translators are welcome. As I am Polish, initial work on the book may happen in polish, and those parts
 will be translated to English.
-
-## Format
-This book is intended to be published in various formats, preferably PDF and EPUB for easy viewing
-on multiple devices, as well as being printable. I have decided to go with two formats: LaTeX and Markdown.
-I am going to prepare set of tools, that will ease the conversion from MarkDown to LaTeX in not such a distant
-future for those who would like to cooperate but lack knowledge of the TeX. But, seriously, it's actually simple :),
-I expect the book code to be easy to understand, so authors can focus on writing. It is worth remembering that Markdown
-lacks some functionality that LaTeX has. 
 
 ## Helping in other ways
 You can:
