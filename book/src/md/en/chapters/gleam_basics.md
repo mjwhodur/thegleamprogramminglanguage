@@ -422,6 +422,26 @@ pub const level: Option(Int) = Some(10)
 
 ## Flow control, functions and modules
 
+Gleam is probably your not first language, so you may be familiar with the concept of functions. 
+In programming, a function is a reusable block of code that performs a specific task. Functions are fundamental building blocks in most programming languages, including Gleam. They help organize code, promote reusability, and make programs more modular and easier to understand.
+
+In Gleam, functions are declared using the `fn` keyword.
+```gleam
+fn add(a: Int, b: Int) -> Int {
+  a + b
+}
+```
+Function can take arguments, and optionally return a value (technically speaking, it always returns a value - Nil, if no return value is specified).
+In Gleam there is no `return` keyword. The value of the last expression in the function is returned.
+
+Similarly to other languages, functions are values. They can be passed to other functions, returned from functions, stored in variables, etc.
+
+As a value, functions has also a type: `fn(<arguments>) -> <return type>`.
+
+FIXME: Add example
+FIXME: Add Exercise - calculator
+
+### Anonymous functions
 
 
 
