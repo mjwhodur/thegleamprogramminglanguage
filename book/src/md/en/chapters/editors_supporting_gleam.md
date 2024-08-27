@@ -4,6 +4,9 @@ Although editor is a very personal choice, there are some editors that support G
 
 ## Free and open source
 
+### Emacs
+- Requires Gleam extension. Can be installed from MELPA.
+
 ### VS Code 
 - Requires Gleam extension. It can be downladed from Visual Studio Code Marketplace.
 

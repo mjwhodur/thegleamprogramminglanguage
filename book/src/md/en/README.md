@@ -3,12 +3,17 @@
 ## TOC
 
 1. [Why Gleam](chapters/why_gleam.md)
-1. What is Erlang
 1. [Installing Gleam with the required tools](chapters/installing_gleam.md)
 1. [Editors supporting Gleam](chapters/editors_supporting_gleam.md)
-1. [Gleam Basics](chapters/gleam_basics.md)
+1. [Gleam Basic syntax](chapters/gleam_basics.md)
 1. [Gleam on Erlang VM](chapters/gleam_on_erlang_vm.md)
 1. [Testing in Gleam](chapters/testing_in_gleam.md)
+1. [Gleam Standard Guide](chapters/gleam_standard_library.md)
+1. [Gleam OTP Library Guide](chapters/gleam_otp_library.md)
+
+## Reference
+1. [Operator reference](guides_references/operator_reference.md)
+
 
 ## Unordered
 
