@@ -1,8 +1,27 @@
 # The Gleam Programming Language
 
+## TLDR; for impatient
+
+The book is available here: [book/src/md/en/README.md](book/src/md/en/README.md)
+
 Since the Gleam programming language reached its maturity - and I consider v1.0.0 of the language
-as being mature, I decided to write an introductory book to it, just as Kerrigan and Ritchie wrote
-their "The C Programming Language" and "The Go Programming Language".
+as being mature - I decided to write an introductory book to it, just as Kernighan and Ritchie wrote
+"The C Programming Language" and "The Go Programming Language".
+
+## THANKS AND DISCLAIMER
+
+First and foremost, I would like to express my deepest gratitude to Louis Pilfold, the creator of the Gleam programming language. His vision, dedication, and hard work have given us this beautiful and powerful language to work with. He's been working on Gleam for years, and continues to lead its growth and improvement.
+
+Louis has poured countless hours into developing Gleam, and continues to lead its growth and improvement. If you find value in Gleam or this book, I strongly encourage you to consider supporting Louis and the Gleam project financially. You can do so by becoming a sponsor at: https://github.com/sponsors/lpil
+
+Your support, no matter how small, helps ensure the continued development and maintenance of Gleam. It's a tangible way to show appreciation for the tools we use and love.
+
+For the latest updates on Gleam and insights from its creator, you can follow Louis on X (formerly Twitter) at: https://x.com/louispilfold
+
+While this book aims to be a comprehensive introduction to Gleam, it is not an official publication. For the most up-to-date and authoritative information, always refer to the official Gleam documentation and resources.
+
+Let's work together to support and grow the Gleam community!
+
 
 ## Why
 
@@ -10,38 +29,40 @@ If you want to learn something, the best way is probably to teach others.
 
 ## Why open-source a book?
 
-Because I believe knowledge shall be available freely and to everyone at no cost.
+Because I believe knowledge should be freely available to everyone at no cost.
 
 ## This book is focused on...
-introduction to the Gleam Programming Language, targeting mostly the Erlang VM. 
-While browsing the internet, looking for knowledge scattered here and there, I have decided
-it is vital to collect all the pieces of the information laying everywhere into one, single
+an introduction to the Gleam Programming Language, targeting mostly the Erlang VM. 
+While browsing the internet, looking for knowledge scattered here and there, I decided
+it is vital to collect all the pieces of information lying everywhere into one single
 introductory book.
 
 ## Plan
 
 - [X] Initiate the book
 - [ ] Expand the articles and sections
-- [ ] Cover with as much examples as possible
+- [ ] Cover with as many examples as possible
 - [x] Make it free
-- [ ] Publish on WikiBooks. 
+- [ ] Publish on WikiBooks
 
 ## Versioning
 
-This book will be semantically-versioned, just like most of the open source software in the world.
-It is a little unusual for the book, but I expect it to grow over time. Some of the knowledge here
+This book will be semantically versioned, just like most open-source software in the world.
+It is a little unusual for a book, but I expect it to grow over time. Some of the knowledge here
 may become outdated. Some may be unnecessary. I expect the book to grow.
 
 ## Authoring
 
-I do not expect to be sole author of this publication. Contributions are welcome.
+I do not expect to be the sole author of this publication. Contributions are welcome.
 
 ## Translation
 
-Translators are welcome. As I am Polish, initial work on the book may happen in polish, and those parts
-will be translated to English.
+Translators are welcome. 
 
 ## Helping in other ways
-You can:
-  - buy me a coffe
-  - hire me
+
+- Buy me a coffee
+
+## Book version
+
+v0.0.1
