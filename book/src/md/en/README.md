@@ -3,44 +3,33 @@
 ## TOC
 
 1. [Why Gleam](chapters/why_gleam.md)
-1. What is Erlang
 1. [Installing Gleam with the required tools](chapters/installing_gleam.md)
 1. [Editors supporting Gleam](chapters/editors_supporting_gleam.md)
 1. [Gleam Basics](chapters/gleam_basics.md)
+1. [What is Erlang, BEAM VM and OTP](chapters/what_is_erlang_beam_vm_and_otp.md)
 1. [Gleam on Erlang VM](chapters/gleam_on_erlang_vm.md)
 1. [Testing in Gleam](chapters/testing_in_gleam.md)
 
-## Unordered
+## About Chapters
 
-1. Note about functional programming
-1. [Using Erlang libraries for Gleam](chapters/using_erlang_libraries_for_gleam.md)
-1. [Using Elixir libraries for Gleam](chapters/using_elixir_libraries_for_gleam.md)
-1. [Gleam changelog](chapters/gleam_changelog.md)
+### Why Gleam
+Cover why Gleam is a good choice for your next project.
 
+### Installing Gleam with the required tools
+Covers how to install Gleam, how to install Erlang and Rebar3 on different platforms and operating systems. It covers also building Gleam from source.
 
-## Gleam Libraries Source Code
-- [Gleam Standard Library (gleam_stdlib)](https://github.com/gleam-lang/stdlib)
-- [gleam_crypto](https://github.com/gleam-lang/crypto)
-- [gleam_json](https://github.com/gleam-lang/json)
-- [gleam_httpc](https://github.com/gleam-lang/httpc)
-- [gleam_elli](https://github.com/gleam-lang/elli)
-- [gleam_otp](https://github.com/gleam-lang/otp)
-- [gleam_erlang](https://github.com/gleam-lang/erlang)
-- [gleam_http](https://github.com/gleam-lang/http)
-- [gleam_package_interface](https://github.com/gleam-lang/package-interface)
-- [gleam_fetch (JS Only)](https://github.com/gleam-lang/fetch)
-- [gleam_cowboy](https://github.com/gleam-lang/cowboy)
-- [gleam_hackney](https://github.com/gleam-lang/hackney)
+### Editors supporting Gleam
+Our unopinionated list of editors supporting Gleam.
 
-### Vintage
-- [gleam_bitwise](https://github.com/gleam-lang/bitwise)
+### Gleam Basics
+Just basics. Chapter covers the basics of Gleam, such as modules, functions, types, etc. It's also a good starting point if you're new to functional programming.
+We'll cover some more advanced topics later in the book. We'll focus on the language itself and its standard library.
 
-## Appendix
+### What is Erlang, BEAM VM and OTP
+This module leaves Gleam for a moment and covers what is Erlang and its most important features. It is essential to understand BEAM VM and its behaviors for deeper understanding of Gleam targeting BEAM VM. Although, it's not required to know Erlang language to understand Gleam, this knowledge will be helpful when targeting BEAM VM. At some point, developer may need to use Erlang libraries and Erlang/OTP behaviors.
 
-- [Awesome Gleam](https://github.com/gleam-lang/awesome-gleam)
+### Gleam on Erlang VM
 
-## External Examples
-
-- [Example Echo Server](https://github.com/gleam-lang/example-echo-server)
+### Testing in Gleam
 
 
