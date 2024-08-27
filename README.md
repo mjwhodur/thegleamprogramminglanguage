@@ -65,4 +65,4 @@ Translators are welcome.
 
 ## Book version
 
-v0.0.1
+v0.0.2
