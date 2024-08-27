@@ -1,4 +1,4 @@
-# Installing Gleam
+# Installing Gleam with Tools
 
 Installing Gleam is a very straightforward process. The language is available for most popular operating systems, making it accessible to a wide range of developers. 
 
@@ -8,13 +8,12 @@ Gleam is itself written in Rust, which provides several advantages:
 2. Performance: Rust's efficiency translates to a fast and resource-friendly Gleam compiler.
 3. Reliability: Rust's strong safety guarantees contribute to Gleam's stability.
 
-This Rust foundation ensures that whether you're using Windows, macOS, Linux, or another supported platform, you can easily install and run Gleam on your system.
-
 In the following sections, we'll cover the installation process for different operating systems and package managers, ensuring you can get started with Gleam quickly and easily.
 
-## Linux
+## Installing the Gleam Toolkit
+### Linux
 
-## Windows
+### Windows
 
 For users on amd64 Windows, the simplest installation method is to download a precompiled version of the Gleam compiler. These prebuilt binaries are available on the official Gleam GitHub releases page.
 
@@ -30,8 +29,8 @@ To install Gleam using this method:
 This method ensures you have the latest stable version of Gleam without the need for additional package managers or build tools.
 
 
-## macOS
-### Using Homebrew
+### macOS
+#### Using Homebrew
 
 For macOS users, one of the easiest ways to install Gleam is through Homebrew, a popular package manager for macOS.
 
@@ -53,4 +52,56 @@ brew install erlang
 ```
 
 
-## Building from Source
+### Building from Source
+
+The compiler is written in the Rust programming language and so if you wish to build Gleam from source you will need to install the Rust compiler.
+
+To install the newest Rust compiler you can run the following command:
+```sh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+Then issue the following commands:
+
+```sh
+# Download the Gleam source code git repository
+cd /tmp
+git clone https://github.com/gleam-lang/gleam.git --branch $THE_LATEST_VERSION
+cd gleam
+
+# Build the Gleam compiler. This will take some time!
+make install
+
+# Verify the compiler is installed
+# Prints "gleam $VERSION"
+gleam --version
+```
+
+As of writing, the newest version of Gleam is v1.4.1
+
+## Installing Erlang
+### Linux
+
+### Windows
+#### Using Chocolatey
+With Chocolatey installed on your computer run the following:
+
+```sh
+choco install erlang
+```
+#### Using Scoop
+With Scoop installed on your computer run the following:
+
+```sh
+scoop install erlang
+```
+
+### macOS
+
+## Installing Rebar3
+### Linux
+
+### Windows
+
+### macOS
+
