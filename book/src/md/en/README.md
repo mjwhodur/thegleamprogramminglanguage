@@ -5,12 +5,18 @@
 1. [Why Gleam](chapters/why_gleam.md)
 1. What is Erlang
 1. [Installing Gleam with the required tools](chapters/installing_gleam.md)
+1. [Editors supporting Gleam](chapters/editors_supporting_gleam.md)
 1. [Gleam Basics](chapters/gleam_basics.md)
-
+1. [Gleam on Erlang VM](chapters/gleam_on_erlang_vm.md)
+1. [Testing in Gleam](chapters/testing_in_gleam.md)
 
 ## Unordered
 
 1. Note about functional programming
+1. [Using Erlang libraries for Gleam](chapters/using_erlang_libraries_for_gleam.md)
+1. [Using Elixir libraries for Gleam](chapters/using_elixir_libraries_for_gleam.md)
+1. [Gleam changelog](chapters/gleam_changelog.md)
+
 
 ## Gleam Libraries Source Code
 - [Gleam Standard Library (gleam_stdlib)](https://github.com/gleam-lang/stdlib)
@@ -32,7 +38,6 @@
 ## Appendix
 
 - [Awesome Gleam](https://github.com/gleam-lang/awesome-gleam)
-- 
 
 ## External Examples
 

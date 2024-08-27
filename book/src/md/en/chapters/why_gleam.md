@@ -62,3 +62,19 @@ Gleam syntax may look similar to Rust.
 Gleam, like Erlang, embraces immutability for its variables. Once a value is assigned, it remains constant throughout its lifetime. This immutability is a cornerstone of functional programming, a paradigm that Gleam adheres to. In this approach, programs are constructed by applying and composing functions to transform immutable data.
 
 These functions operate similarly to their mathematical counterparts: they accept inputs and produce outputs in a predictable manner. This design philosophy contributes to code that is easier to reason about, less prone to side effects, and more resistant to certain types of bugs.
+
+## Gleam as a first programming language
+Learning Gleam as a first programming language may not be such a good idea. There are few reasons for that.
+
+### Gleam is relatively new language
+
+### Gleam is a functional programming language
+Functional paradigm may be hard to grasp for beginners. 
+FIXME: Add more details here.
+
+### Gleam has (yet) small community
+
+### Gleam has (yet) small ecosystem
+
+### Gleam has (yet) small number of libraries and frameworks
+While there is abundance of libraries and frameworks for Javascript, Erlang or Elixir, there are few libraries and frameworks for Gleam. This number is slowly growing though. It may be hard to find a library or framework for your needs. Sometimes you may have to depend on Erlang or Elixir libraries and frameworks.
