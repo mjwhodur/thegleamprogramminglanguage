@@ -438,12 +438,42 @@ Similarly to other languages, functions are values. They can be passed to other 
 
 As a value, functions has also a type: `fn(<arguments>) -> <return type>`.
 
-FIXME: Add example
-FIXME: Add Exercise - calculator
+Unlike some languages, Gleam cannot have functions with same names and different parameters.
+In C, for example, it is possible to have two functions with same name, but different arguents - this is called function overloading.
+_Footnote_: In C, function overloading yields creation of different functions, with different names during the compilation. This feature is called name mangling. The exact function name is mangled by the compiler to include the types of the arguments and put in place of the original function name.
+In Erlang, it is possible to have two functions with same name, but different arities (number of arguments).
+
+```gleam
+    fn add(a: Float, b: Float) -> Float {
+        a + b
+    }
+
+    // Uncommenting this will cause a compilation error
+    //fn add(a: Int, b: Int) -> Int {
+    //    a + b
+    }
+```
 
 ### Anonymous functions
+FIXME: Add example
+
+### Control flow - there is no if, while, for, etc.
+FIXME: Pattern matching
 
 
+### Modules
+Similarly to Erlang and JavaScript, Gleam uses modules to organize code.
+Functions, types, constants, etc. are declared in modules. And can be exported to be used in other modules.
+In order to export a function, type, constant, etc. from a module, we need to declare it as `pub`.
+```gleam
+pub fn add(a: Int, b: Int) -> Int {
+  a + b
+}
+```
+Functions, types, can be imported from other modules.
+FIXME: Elaborate on this - extend example to use the two separate modules.
 
-
+FIXME: Add example
+FIXME: Add Exercise - calculator
+FIXME: Add Exercise - Advanced calculator
 

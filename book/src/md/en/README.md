@@ -6,6 +6,7 @@
 1. [Installing Gleam with the required tools](chapters/installing_gleam.md)
 1. [Editors supporting Gleam](chapters/editors_supporting_gleam.md)
 1. [Gleam Basic syntax](chapters/gleam_basics.md)
+1. [Gleam Advanced syntax](chapters/gleam_advanced.md)
 1. [Gleam on Erlang VM](chapters/gleam_on_erlang_vm.md)
 1. [Testing in Gleam](chapters/testing_in_gleam.md)
 1. [Gleam Standard Guide](chapters/gleam_standard_library.md)
@@ -49,3 +50,7 @@
 - [Example Echo Server](https://github.com/gleam-lang/example-echo-server)
 
 
+## Experiments
+
+- [ ] Hot code reloading
+- [ ] Modules without a `main` function
