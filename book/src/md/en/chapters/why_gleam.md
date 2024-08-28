@@ -64,7 +64,7 @@ Gleam, like Erlang, embraces immutability for its variables. Once a value is ass
 These functions operate similarly to their mathematical counterparts: they accept inputs and produce outputs in a predictable manner. This design philosophy contributes to code that is easier to reason about, less prone to side effects, and more resistant to certain types of bugs.
 
 ## Gleam as a first programming language
-Learning Gleam as a first programming language may not be such a good idea. There are few reasons for that.
+Learning Gleam as a first programming language may not be such a good idea. There are few reasons for that. It targets specific platform (Erlang VM) which is not trivial. It's a functional language which may be hard to grasp for beginners. It's a statically typed language which may be hard to grasp for beginners. 
 
 ### Gleam is relatively new language
 
