@@ -1,0 +1,15 @@
+name = "tgpl_contained_modules"
+version = "1.0.0"
+
+# Fill out these fields if you intend to generate HTML documentation or publish
+# your project to the Hex package manager.
+#
+description = "The Gleam Programming Language. This example piece of code shows possibility of creating nested modules"
+licences = ["MIT"]
+repository = { type = "custom",    url = "https://github.com/mjwhodur/thegleamprogramminglanguage/experiments/contained_modules" }
+
+[dependencies]
+gleam_stdlib = ">= 0.34.0 and < 2.0.0"
+
+[dev-dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"

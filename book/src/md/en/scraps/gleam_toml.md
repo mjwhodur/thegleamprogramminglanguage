@@ -1,7 +1,8 @@
 # gleam.toml _reference_
 
 ```toml
-Gleam projects require a gleam.toml configuration file. The toml configuration format is documented at toml.io.
+Gleam projects require a gleam.toml configuration file. 
+The toml configuration format is documented at toml.io.
 
 # The name of your project (required)
 name = "my_project"
