@@ -1,6 +1,8 @@
 # Gleam Operators Reference
 
-## Arithmetic Operators
+## Boolean operators
+
+## Arithmetic operators
 
 ## Operators on lists
 

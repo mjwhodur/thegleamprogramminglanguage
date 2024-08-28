@@ -301,3 +301,5 @@ TSWLatexianTemp*
 #*Notes.bib
 
 do_not_include/*
+.idea/*
+.vscode/*

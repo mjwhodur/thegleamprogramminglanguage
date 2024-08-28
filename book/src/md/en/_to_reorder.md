@@ -1,5 +1,6 @@
 # Unordered and to reorder
-These parts are likely incomplete. 
+
+These parts are likely incomplete.
 
 ## Unordered
 
@@ -8,8 +9,8 @@ These parts are likely incomplete.
 1. [Using Elixir libraries for Gleam](chapters/using_elixir_libraries_for_gleam.md)
 1. [Gleam changelog](chapters/gleam_changelog.md)
 
-
 ## Gleam Libraries Source Code
+
 - [Gleam Standard Library (gleam_stdlib)](https://github.com/gleam-lang/stdlib)
 - [gleam_crypto](https://github.com/gleam-lang/crypto)
 - [gleam_json](https://github.com/gleam-lang/json)
@@ -24,6 +25,7 @@ These parts are likely incomplete.
 - [gleam_hackney](https://github.com/gleam-lang/hackney)
 
 ### Vintage
+
 - [gleam_bitwise](https://github.com/gleam-lang/bitwise)
 
 ## Appendix
@@ -35,4 +37,5 @@ These parts are likely incomplete.
 - [Example Echo Server](https://github.com/gleam-lang/example-echo-server)
 
 ## Crazy things and possibilities
+
 - Hot code reloading

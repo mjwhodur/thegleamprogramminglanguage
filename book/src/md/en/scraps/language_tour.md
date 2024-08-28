@@ -14,7 +14,7 @@ Language Features Tour
         10. Booleans
         11. Assignments
         12. Discard patterns
-        13. Type annotations
+        13.z Type annotations
         14. Type Imports
         15. Type aliases
         16. blocks
